@@ -11,6 +11,7 @@ def koch_snowflake(t, order, size):
 
 
 def draw_koch_snowflake(order, size=300):
+    order - int(input("Вкажіть рівень рекурсії: "))
     window = turtle.Screen()
     window.bgcolor("white")
 
